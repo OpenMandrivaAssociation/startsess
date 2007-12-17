@@ -11,7 +11,6 @@ URL:		http://www.ltsp.org
 Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
 BuildRequires:	dietlibc-devel
 Patch0:		startsess.patch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This program is used in LTSP to start the sessions (shell, telnet, startx).

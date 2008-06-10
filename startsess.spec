@@ -4,14 +4,14 @@
 Summary:	Tool to start LTSP sessions
 Name:		startsess
 Version:	1.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL
 Group:		System/Servers
 URL:		http://www.ltsp.org
 Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
 BuildRequires:	dietlibc-devel
 Patch0:		startsess.patch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This program is used in LTSP to start the sessions (shell, telnet, startx).
@@ -37,5 +37,3 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc COPYING README
 %attr(0755,root,root) /bin/%{name}
-
-

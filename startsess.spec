@@ -4,7 +4,7 @@
 Summary:	Tool to start LTSP sessions
 Name:		startsess
 Version:	1.1
-Release:	%mkrel 5
+Release:	6
 License:	GPL
 Group:		System/Servers
 URL:		http://www.ltsp.org

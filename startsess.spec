@@ -7,7 +7,7 @@ Version:	1.1
 Release:	6
 License:	GPL
 Group:		System/Servers
-URL:		http://www.ltsp.org
+URL:		https://www.ltsp.org
 Source0:	http://www.ltsp.org/tarballs/%{name}-%{version}.tar.bz2
 BuildRequires:	dietlibc-devel
 Patch0:		startsess.patch
